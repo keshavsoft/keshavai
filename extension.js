@@ -5,8 +5,8 @@ import { register } from './Helpers/register.js';
 import { startFunc as rootCommand } from './Commands/rootCommand.js';
 import { startFunc as folderCommand } from './Commands/folderCommand.js';
 import { startFunc as fileCommand } from './Commands/fileCommand.js';
-import { StartFunc as VoiceToText } from "./Commands/VoiceToText.js";
-
+// import { StartFunc as VoiceToText } from "./Commands/VoiceToText.js";
+import { StartFunc as VoiceToText } from "./Commands/VoiceToText/commandStart.js";
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 

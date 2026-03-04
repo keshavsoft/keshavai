@@ -175,3 +175,7 @@ This project uses:
 * SoX
 
 Please refer to their respective licenses.
+
+1.1.4
+
+voice to text perfect
