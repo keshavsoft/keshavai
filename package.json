@@ -2,7 +2,7 @@
   "name": "keshavai",
   "displayName": "KeshavAi",
   "description": "ai for JavaScript",
-  "version": "0.0.1",
+  "version": "1.1.1",
   "type": "module",
   "engines": {
     "vscode": "^1.70.0"
@@ -25,6 +25,10 @@
       {
         "command": "keshavai.rightClickFolder",
         "title": "rightClickFolder"
+      },
+      {
+        "command": "keshavai.rightClickFile",
+        "title": "rightClickFile"
       }
     ],
     "menus": {
@@ -38,6 +42,13 @@
           "command": "keshavai.rightClickFolder",
           "group": "navigation",
           "when": "explorerResourceIsFolder && !explorerResourceIsRoot"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "keshavai.rightClickFile",
+          "group": "navigation",
+          "when": "editorTextFocus"
         }
       ]
     }

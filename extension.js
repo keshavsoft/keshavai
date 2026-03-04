@@ -4,6 +4,7 @@ import * as vscode from 'vscode'
 import { register } from './Helpers/register.js';
 import { startFunc as rootCommand } from './Commands/rootCommand.js';
 import { startFunc as folderCommand } from './Commands/folderCommand.js';
+import { startFunc as fileCommand } from './Commands/fileCommand.js';
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -21,7 +22,8 @@ function activate(context) {
 	context.subscriptions.push(disposable);
 
 	register(context, vscode, 'keshavai.rightClickRoot', rootCommand)
-	register(context, vscode, 'keshavai.rightClickFolder', folderCommand)
+	register(context, vscode, 'keshavai.rightClickFolder', folderCommand);
+	register(context, vscode, 'keshavai.rightClickFile', fileCommand);
 };
 
 // This method is called when your extension is deactivated
