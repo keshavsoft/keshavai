@@ -1,15 +1,20 @@
 {
   "name": "keshavai",
   "displayName": "KeshavAi",
-  "description": "ai for JavaScript",
+  "publisher": "KeshavSoft",
+  "description": "KeshavSoft AI with voice capture",
   "version": "1.1.3",
   "type": "module",
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.109.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keshavsoft/keshavai.git"
+  },
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
