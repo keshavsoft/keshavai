@@ -2,7 +2,7 @@
   "name": "keshavai",
   "displayName": "KeshavAi",
   "description": "ai for JavaScript",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "type": "module",
   "engines": {
     "vscode": "^1.70.0"

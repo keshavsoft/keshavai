@@ -36,3 +36,7 @@ Initial development version.
 ### 1.1.1
 
 voice perfect
+
+### 1.1.2
+
+sox local
