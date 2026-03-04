@@ -1,9 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs'
+import path from 'path'
 
-function rootCommand(uri) {
+function startFunc(uri) {
     const LocalPath = path.join(uri.fsPath, "Folder1");
     fs.mkdirSync(LocalPath);
-}
+};
 
-module.exports = rootCommand;
+export { startFunc };

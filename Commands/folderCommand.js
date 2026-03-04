@@ -1,8 +1,8 @@
-const vscode = require('vscode');
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs'
+import path from 'path'
+import * as vscode from 'vscode'
 
-function rootCommand(uri) {
+function startFunc(uri) {
     // The code you place here will be executed every time your command is executed
     const LocalPath = path.join(uri.fsPath, "file1.txt");
     fs.writeFileSync(LocalPath, "hai");
@@ -10,4 +10,4 @@ function rootCommand(uri) {
     vscode.window.showInformationMessage(uri.fsPath);
 };
 
-module.exports = rootCommand;
+export { startFunc };

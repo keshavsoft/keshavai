@@ -1,7 +1,9 @@
-const vscode = require('vscode');
-const rootCommand = require('./commands/rootCommand');
-const folderCommand = require('./commands/folderCommand');
-const register = require('./helpers/register');
+// const vscode = require('vscode');
+// const vscode = require('vscode');
+import * as vscode from 'vscode'
+import { register } from './Helpers/register.js';
+import { startFunc as rootCommand } from './Commands/rootCommand.js';
+import { startFunc as folderCommand } from './Commands/folderCommand.js';
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -25,7 +27,8 @@ function activate(context) {
 // This method is called when your extension is deactivated
 function deactivate() { }
 
-module.exports = {
-	activate,
-	deactivate
-}
+// module.exports = {
+// 	activate,
+// 	deactivate
+// }
+export { activate, deactivate }

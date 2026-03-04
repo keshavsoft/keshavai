@@ -3,8 +3,9 @@
   "displayName": "KeshavAi",
   "description": "ai for JavaScript",
   "version": "0.0.1",
+  "type": "module",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Other"
