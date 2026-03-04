@@ -2,7 +2,7 @@
   "name": "keshavai",
   "displayName": "KeshavAi",
   "description": "ai for JavaScript",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "engines": {
     "vscode": "^1.70.0"
@@ -29,6 +29,10 @@
       {
         "command": "keshavai.rightClickFile",
         "title": "rightClickFile"
+      },
+      {
+        "command": "voice",
+        "title": "voice"
       }
     ],
     "menus": {

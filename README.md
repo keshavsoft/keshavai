@@ -20,14 +20,19 @@ Right-click in the Explorer:
 - Workspace root → runs root command
 - Folder → runs folder command
 
-## Release Notes
-
-### 0.0.1
-Initial development version.
-
 ## Requirements
 
 - Visual Studio Code version **1.109.0 or newer**
 - No separate Node.js installation required (VS Code includes its own Node runtime)
 
 rightClickFile perfect
+
+
+## Release Notes
+
+### 0.0.1
+Initial development version.
+
+### 1.1.1
+
+voice perfect
