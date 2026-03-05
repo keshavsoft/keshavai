@@ -183,3 +183,7 @@ voice to text perfect
 1.1.5
 
 webview started, but voice not working
+
+1.1.6
+
+FetchAsPost perfect 
