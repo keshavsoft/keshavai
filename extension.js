@@ -7,6 +7,8 @@ import { startFunc as folderCommand } from './Commands/folderCommand.js';
 import { startFunc as fileCommand } from './Commands/fileCommand.js';
 // import { StartFunc as VoiceToText } from "./Commands/VoiceToText.js";
 import { StartFunc as VoiceToText } from "./Commands/VoiceToText/commandStart.js";
+import { startFunc as showHtml } from './Commands/showHtml.js';
+
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 
@@ -25,12 +27,20 @@ function activate(context) {
 	register(context, vscode, 'keshavai.rightClickRoot', rootCommand)
 	register(context, vscode, 'keshavai.rightClickFolder', folderCommand);
 	register(context, vscode, 'keshavai.rightClickFile', fileCommand);
+	// register(context, vscode, 'keshavai.showHtml', showHtml);
 	// register(context, vscode, 'voice', VoiceToText);
 
 	context.subscriptions.push(
 		vscode.commands.registerCommand(
 			"voice",
 			() => VoiceToText(context)
+		)
+	);
+
+	context.subscriptions.push(
+		vscode.commands.registerCommand(
+			"keshavai.showHtml",
+			() => showHtml(context)
 		)
 	);
 };

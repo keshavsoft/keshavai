@@ -179,3 +179,7 @@ Please refer to their respective licenses.
 1.1.4
 
 voice to text perfect
+
+1.1.5
+
+webview started, but voice not working

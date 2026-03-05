@@ -3,8 +3,13 @@
   "displayName": "KeshavAi",
   "publisher": "KeshavSoft",
   "description": "KeshavSoft AI with voice capture",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "type": "module",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
   "engines": {
     "vscode": "^1.109.0"
   },
@@ -38,6 +43,10 @@
       {
         "command": "voice",
         "title": "voice"
+      },
+      {
+        "command": "keshavai.showHtml",
+        "title": "showHtml"
       }
     ],
     "menus": {
