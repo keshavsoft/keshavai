@@ -167,6 +167,18 @@ Cross-platform support
 
 ---
 
+| Command                     | Description         |
+| --------------------------- | ---------------------------------------------------- |
+| `keshavai.helloWorld`       | Basic test command                                   |
+| `keshavai.rightClickRoot`   | Runs command from workspace root                     |
+| `keshavai.rightClickFolder` | Runs command from selected folder                    |
+| `keshavai.rightClickFile`   | Runs command from selected file                      |
+| `voice`                     | Records microphone audio and converts speech to text |
+| `keshavai.showHtml`         | Opens extension HTML webview                         |
+| `keshavai.FetchAsPost`      | Fetch API request using POST                         |
+| `keshavai.FetchAsGet`       | Fetch API request using GET                          |
+
+
 # License
 
 This project uses:
@@ -174,20 +186,19 @@ This project uses:
 * Whisper.cpp
 * SoX
 
-Please refer to their respective licenses.
-
+Version History
 1.1.4
 
-voice to text perfect
+Voice-to-text feature working perfectly.
 
 1.1.5
 
-webview started, but voice not working
+Webview introduced, but voice feature not working.
 
 1.1.6
 
-FetchAsPost perfect 
+FetchAsPost feature implemented successfully.
 
 1.1.7
 
-Fetch modular started
+Fetch logic modularized.
